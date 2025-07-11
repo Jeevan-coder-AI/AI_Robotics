@@ -1,4 +1,4 @@
-from gpiozero import DigitalInputDevice,DigitalOutputDevice
+from gpiozero import DigitalOutputDevice
 from time import sleep
 buzz=DigitalOutputDevice(14)
 while True:
